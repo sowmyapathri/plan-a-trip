@@ -3,7 +3,7 @@ import { ToursList } from './ToursList'
 
 export const Features = () => {
   const FTours=ToursList.map((Tours,id)=>
-  <div className='tours' id={id}>
+  <div className='tours' id={id} >
     <img className='tourimg' src={Tours.image} alt='Places'/>
      <h4 className='tname'>{Tours.place}</h4>
      <p className='tabout'>{Tours.about}</p>
@@ -13,7 +13,7 @@ export const Features = () => {
   );
   
   return (
-    <div>
+    <div id='features'>
         <h3 className='h3'>FEATURED TOURS</h3>
         <div className='disfea'>
           {FTours}

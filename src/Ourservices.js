@@ -4,7 +4,7 @@ import rooms from './images/rooms.png'
 import hiking from './images/hiking.png'
 export const Ourservices = () => {
   return (
-    <div className="service">
+    <div className="service" id='services'>
         <h3 className='h3'>OUR SERVICES</h3>
         <img className='serviceimg1' src={money} alt="Money Saving"/>
         <h4 className='sercap1'>Saving Money</h4>

@@ -2,7 +2,7 @@ import React from 'react'
 import beach from './images/beach.jpg'
 export const Aboutus = () => {
   return (
-    <div>
+    <div id='about'>
         <h3 className='h3'>ABOUT US</h3>
         <div>
             <img className="aboutimg" src={beach} alt="Beach"/>
